@@ -1,0 +1,105 @@
+body{
+    font-family: 阿里妈妈数黑体;
+    background-color: bisque;
+}
+/* body样式 */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* 内外边框为0px */
+    text-decoration: none;
+    list-style: none;
+    /* 各种样式为空 */
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    width: 250px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.dhl{
+    width: 100%;
+    height: 80px;
+    background-color: #107aeb;
+}
+/* 导航栏样式 */
+
+.dhlj{
+    float: right;
+    text-align: center;
+    width: 200px;
+    line-height: 80px;
+    font-size: 20px;
+}
+/* 导航栏链接布局 */
+
+.dhljys a{
+    color: #ffffff;
+    display: block;
+}
+/* 改变导航栏超链接颜色；加入一个元素与下方dhljys a:hover配合使用*/
+
+.dhljys a:hover{
+    background-color: #44b6ef;
+}
+/* 超链接浮动样式 */
+/* 导航栏css结束 */
+.dbxx{
+    background-color: rgb(224, 163, 88);
+    position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            color: #ffffff;
+            font-size: 15px;
+
+}
+/* 底部信息 */
+.zyxx{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    top: 300px;
+    left: 600px;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    }
+
+    .windowsul{
+        width: 200px;
+        height: 800px;
+        background-color: #105aeb;
+    }
+    .windowsli{
+        text-align: center;
+        padding: 30px 0px;
+
+    }
+    .windowsul .windowsli:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(224, 163, 88);
+    }
+    .windowsli a{
+        color: #ffffff;
+    }
+    .windows11{
+        position: fixed;
+        align:center;
+        width: 1000px;
+        height: 250px;
+        top: 120px;
+        left: 300px;
+        background-color: #105aeb;
+        color: #ffffff;
+        text-align: center;
+        bottom: 0;
+    }

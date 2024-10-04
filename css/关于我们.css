@@ -1,0 +1,99 @@
+body{
+    font-family: 阿里妈妈数黑体;
+    background-color:  rgb(212, 183, 147);
+    background-size: 2560px auto;
+}
+/* body样式 */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* 内外边框为0px */
+    text-decoration: none;
+    list-style: none;
+    /* 各种样式为空 */
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    width: 250px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.dhl{
+    width: 100%;
+    height: 80px;
+    background-color: #107aeb;
+}
+/* 导航栏样式 */
+
+.dhlj{
+    float: right;
+    text-align: center;
+    width: 200px;
+    line-height: 80px;
+    font-size: 20px;
+}
+/* 导航栏链接布局 */
+
+.dhljys a{
+    color: #ffffff;
+    display: block;
+}
+/* 改变导航栏超链接颜色；加入一个元素与下方dhljys a:hover配合使用*/
+
+.dhljys a:hover{
+    background-color: #44b6ef;
+}
+/* 超链接浮动样式 */
+/* 导航栏css结束 */
+.dbxx{
+    background-color: rgb(224, 163, 88);
+    position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            color: #ffffff;
+            font-size: 15px;
+
+}
+/* 底部信息 */
+.zyxx{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    top: 300px;
+    left: 600px;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    }
+
+    /* 定义 @font-face 规则 */
+@font-face {
+    font-family: 'AlimamaShuhei';
+    src: url('../字体/AlimamaShuHeiTi-Bold.woff2') format('woff2'),
+         url('../字体/AlimamaShuHeiTi-Bold.woff') format('woff'),
+         url('../字体/AlimamaShuHeiTi-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 在页面中应用字体 */
+body {
+    font-family: 'AlimamaShuhei', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'AlimamaShuhei', Georgia, serif;
+}
+.gywm{
+    color: #ffffff;
+    font-size: 20px;
+}
